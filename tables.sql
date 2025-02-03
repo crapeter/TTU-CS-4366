@@ -1,13 +1,11 @@
 -- SQL: Database Creation
--- This command is specific to MySQL. If you are using a different SQL variant, you may need to adjust this command.
 CREATE DATABASE capstone_project;
 
 -- SQL: Set the database to use
--- This command is specific to MySQL. If you are using a different SQL variant, you may need to adjust this command.
 USE capstone_project;
 
 -- SQL: CREATE TABLE Statements for the ER Diagram
--- The commands in this file can be copy and pasted into a sql variant to be executed and create the tables needed for this project
+-- Open this file in MySQL Workbench and then execute the script to generate the tables.
 CREATE TABLE Course (
     CourseId INT PRIMARY KEY,
     Department VARCHAR(255) NOT NULL,
