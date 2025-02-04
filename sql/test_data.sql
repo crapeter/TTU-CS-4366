@@ -63,10 +63,10 @@ INSERT INTO Instructor (InstructorId, F_name, M_name, L_name, InsPreferences) VA
 -- Insert dummy data into TA table
 INSERT INTO TA (TAId, F_name, M_name, L_name, Max_Hours, Experience, Preferences, Grad_Level) VALUES
 (1, 'Alice', 'D', 'Johnson', 20, '2 years experience', 'Prefers CS courses', 'Masters'),
-(2, 'Bob', 'E', 'Williams', 15, '1 year experience', 'Enjoys Mathematics', 'PhD'),
-(3, 'Charlie', 'F', 'Davis', 25, '3 years experience', 'Likes Physics', 'Masters'),
-(4, 'David', 'G', 'Miller', 20, '1.5 years experience', 'Interested in Engineering', 'PhD'),
-(5, 'Eve', 'H', 'Anderson', 18, '2.5 years experience', 'Enjoys History', 'Masters');
+(2, 'Bob', 'E', 'Williams', 10, '1 year experience', 'Enjoys Mathematics', 'PhD'),
+(3, 'Charlie', 'F', 'Davis', 20, '3 years experience', 'Likes Physics', 'Masters'),
+(4, 'David', 'G', 'Miller', 10, '1.5 years experience', 'Interested in Engineering', 'PhD'),
+(5, 'Eve', 'H', 'Anderson', 20, '2.5 years experience', 'Enjoys History', 'Masters');
 
 -- Insert dummy data into Teaches table
 INSERT INTO Teaches (InstructorId, SectionId) VALUES
