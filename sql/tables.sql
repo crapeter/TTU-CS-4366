@@ -1,3 +1,5 @@
+-- Open this file in MySQL Workbench and then execute the script to generate the tables.
+
 -- SQL: Database Creation
 CREATE DATABASE capstone_project;
 
@@ -5,7 +7,6 @@ CREATE DATABASE capstone_project;
 USE capstone_project;
 
 -- SQL: CREATE TABLE Statements for the ER Diagram
--- Open this file in MySQL Workbench and then execute the script to generate the tables.
 CREATE TABLE Course (
     CourseId INT PRIMARY KEY,
     Department VARCHAR(255) NOT NULL,
@@ -43,8 +44,10 @@ CREATE TABLE TA (
 CREATE TABLE Grader (
     GraderId INT PRIMARY KEY,
     TAId INT NOT NULL,
+    SectionId INT NOT NULL,
     Hours INT NOT NULL,
-    FOREIGN KEY (TAId) REFERENCES TA(TAId) ON DELETE CASCADE
+    FOREIGN KEY (TAId) REFERENCES TA(TAId) ON DELETE CASCADE,
+    FOREIGN KEY (SectionID) REFERENCES Section(SectionId) ON DELETE CASCADE
 );
 
 CREATE TABLE Supervises (

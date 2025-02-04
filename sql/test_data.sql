@@ -1,6 +1,11 @@
--- Goal of the program is to assign TAs to sections based on their availability, experience and preferences
--- This entails an algorithm that takes into consideration the number of TAs required for each section, the maximum hours each TA can work, and the experience and preferences of each TA.
--- The final result is to be able to assign TAs to sections in a way that maximizes the efficiency of the teaching assistants and meets the needs of the instructors.
+/*
+Goal of the program is to assign TAs to sections based on their availability, experience and preferences
+  This entails an algorithm that takes into consideration the number of TAs required for each section,
+  the maximum hours each TA can work, and the experience and preferences of each TA.
+
+  The final result is to be able to assign TAs to sections in a way that maximizes the efficiency
+  of the teaching assistants and meets the needs of the instructors.
+*/
 
 -- SQL: Set the database to use
 USE capstone_project;
