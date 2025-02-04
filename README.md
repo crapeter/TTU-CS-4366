@@ -10,7 +10,7 @@ Follow this link: [MySQL Installation](https://dev.mysql.com/downloads/) and cho
 
 After installing MySQL workbench, you should be able to open it up and create a root user and password. Once the root user is created an you've created MySQL Connection, you should be able to open connection and import tables.sql into the SQL editor, upon which you can execute the script and generate the tables.
 
-> Note, when you first open a MySQL connection, there will be some dummy databases generated. If you feel like deleting them you can enter the command `drop database _database_name_`
+> Note, when you first open a MySQL connection, there will be some dummy databases generated. If you feel like deleting them you can enter the command `DROP DATABASE _database_name_`
 
 ### Node/npm
 
