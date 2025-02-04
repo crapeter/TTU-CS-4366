@@ -10,7 +10,8 @@ CREATE TABLE Course (
     CourseId INT PRIMARY KEY,
     Department VARCHAR(255) NOT NULL,
     CourseNum VARCHAR(255) UNIQUE NOT NULL,
-    Prerequisites VARCHAR(255)
+    Prerequisites VARCHAR(255),
+    CourseDesc TEXT
 );
 
 CREATE TABLE Section (
@@ -24,7 +25,8 @@ CREATE TABLE Instructor (
     InstructorId INT PRIMARY KEY,
     F_name VARCHAR(255) NOT NULL,
     M_name VARCHAR(255),
-    L_name VARCHAR(255) NOT NULL
+    L_name VARCHAR(255) NOT NULL,
+    InsPreferences TEXT
 );
 
 CREATE TABLE TA (
@@ -33,7 +35,8 @@ CREATE TABLE TA (
     M_name VARCHAR(255),
     L_name VARCHAR(255) NOT NULL,
     Max_Hours INT NOT NULL,
-    Experience VARCHAR(255),
+    Experience TEXT,
+    Preferences TEXT,
     Grad_Level VARCHAR(255) CHECK (Grad_Level IN ('Masters', 'PhD'))
 );
 
