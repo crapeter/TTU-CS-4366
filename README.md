@@ -23,3 +23,11 @@ After downloading Node and npm, all you need to do is navigate to the frontend, 
 Follow this link: [Python/pip Installation](https://www.python.org/downloads/) and choose accordingly.
 
 After downloading Python and pip, type `pip install -r requirements.txt` and all the python requirements should be installed.
+
+## Technology used
+
+### Node/React/Vite
+
+When creating the frontend of this project, we used Vite and ReactJS. `npm init vite@latest -- --template react`
+
+> If you want to use typescript, enter this command: `npm init vite@latest -- --template react-ts`
