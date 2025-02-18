@@ -1,5 +1,3 @@
-# This file is used to store the variables that correspond to the columns in the excel sheets
-
 ''' Column Names
 File1-Spring-2025-TA-Graders-PhD_Master-information
 ['Unnamed: 0',
