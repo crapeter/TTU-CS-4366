@@ -1,5 +1,3 @@
-# This file holds the variables that correspond to the columns of the excel files
-
 ''' Column Names
 File1-Spring-2025-TA-Graders-PhD_Master-information
 ['Unnamed: 0',
