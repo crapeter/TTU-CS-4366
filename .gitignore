@@ -172,3 +172,6 @@ cython_debug/
 
 # Capstone Inputs
 Capstone_Input_Files/
+
+# Environment Variables
+.env
