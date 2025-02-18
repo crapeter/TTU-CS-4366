@@ -35,7 +35,7 @@ def print_classes():
 
 if __name__ == "__main__":
     print_preferences()
-    print()
-    print_info()
-    print()
-    print_classes()
+    # print()
+    # print_info()
+    # print()
+    # print_classes()
