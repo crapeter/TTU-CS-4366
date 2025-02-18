@@ -1,4 +1,3 @@
-# This file is used to store the names of the variables associated with the columns in the excel spreadsheets
 
 ''' Column Names
 File1-Spring-2025-TA-Graders-PhD_Master-information
