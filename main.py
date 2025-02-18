@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-'''
+'''asdf
 f1_
 '''
 grader_preferences = pd.read_excel(os.getenv('FILE1')).dropna(how="all")
@@ -35,7 +35,7 @@ def print_classes():
 
 if __name__ == "__main__":
     print_preferences()
-    # print()
-    # print_info()
-    # print()
-    # print_classes()
+    print()
+    print_info()
+    print()
+    print_classes()
